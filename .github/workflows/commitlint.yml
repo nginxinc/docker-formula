@@ -10,7 +10,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
         with:
           fetch-depth: 0
-      - uses: wagoid/commitlint-github-action@v1
+      - uses: wagoid/commitlint-github-action@a85daedc64529d02d566e7f83c3c48c77e78af85 # v1
